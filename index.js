@@ -17,5 +17,5 @@ app.get("/", (req, res) => {
 app.use("/api", userRouter);
 
 app.listen(PORT, () => {
-  console.log("Connected to PORT");
+  console.log("Connected to PORT", PORT);
 });
